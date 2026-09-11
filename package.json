@@ -1,0 +1,36 @@
+{
+  "name": "project-roam",
+  "version": "1.0.0",
+  "description": "Project Roam - Telegram-Native AI Concierge with Trigger.dev and ClickHouse Vector Memory",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "dev:trigger": "npx trigger.dev@latest dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@clickhouse/client": "^1.23.1",
+    "@langchain/core": "^1.2.10",
+    "@langchain/openai": "^1.5.12",
+    "@trigger.dev/sdk": "latest",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/uuid": "^10.0.0",
+    "exa-js": "^2.19.0",
+    "grammy": "^1.46.0",
+    "next": "^16.3.4",
+    "openai": "^7.15.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "uuid": "^14.0.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "latest",
+    "@types/node": "^20.14.0",
+    "tsx": "^4.23.13",
+    "typescript": "^5.4.5"
+  }
+}
